@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1'/>
+		<title>soundscapes</title>
+	</head>
+	<style>
+		body {
+			color: white;
+			text-align: center;
+			font-family: serif;
+			font-size: 21px;
+			line-height: 1.3;
+			margin: 1em;
+			background-color: black;
+		}
+		h3 {
+			font-weight: normal;
+			font-family: sans-serif;
+		}
+		.sentence {
+			margin: 10em auto 20em auto;
+		}
+		.sentence img {
+			padding-top: 10em;
+		}
+		#yourlocation {
+			position: fixed;
+			top: 10%;
+			left: 50%;
+			transform: translateX(-50%);
+			/* thank you Josh Crozier https://stackoverflow.com/questions/2005954/center-a-positionfixed-element */ 
+		}
+		#colophon-open {
+			padding-top: 25vh;
+			margin-bottom: 100vh;
+		}
+		#colophon-close {margin-top: 100vh;}
+		a {color: white}
+		a:hover {color: white}
+		#alainifnchm:hover {color: red}
+		#leslie:hover {color: olive}
+		#marc:hover {color: plum}
+	</style>
+
+	<body>
+		<section id="colophon-open">
+			SOUNDSCAPES<br><br>
+			<em>What if <a target="_blank" href="https://knowyourmeme.com/memes/the-3am-challenge">3AM challenges</a> taught you how to feel?</em><br>
+			This website is a continuation of [<a id="alainifnchm" target="_blank" href="https://liuleslie.github.io/alainifnchm/"><em>as long as i'm not in fullscreen nothing can hurt me</em></a>], <br>
+			a single serving site that starts to lay down the groundwork for a world <br>
+			populated by emotions exaggerated and pushed to the extreme for views.
+		</section>
+
+		<!-- structure goes: resultant text -->
+		<!-- 				 image -->		
+		<!--				 dropdown subtitles -->
+		<!--				 all the content, randomly sorted -->
+		<!--		[ the audio somewhere ] -->
+
+		<!-- label = what you ask, user chooses options, effectively acting as an NPC in the world -->
+
+
+		<select id="yourlocation" onChange="window.location.href=this.value">
+			<option value="#colophon-open"><</option>
+			<optgroup label=""></optgroup>
+			<optgroup label="Where did you go?">
+				<option value="#greenery">I dreamt</option>
+				<option value="#memory">I held</option>
+				<option value="#voicemail">Didn't you get my call?</option>
+			    <!-- <option value="https://www.google.com">A</option>
+			    <option value="https://www.aol.com">B</option> -->
+			</optgroup>
+			<optgroup label="dialogue 2">
+				<option value="#answer1">answer1</option>
+				<option value="#answer2">answer2</option>
+				<option value="#answer3">answer3</option>
+			</optgroup>
+			<optgroup label=""></optgroup>
+			<option value="#colophon-close">></option>
+		</select>
+
+
+
+		
+
+		<section class="sentence" id="answer1">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/1.png">
+			<h3>header header</h3>
+		</section>
+
+		<section class="sentence" id="answer2">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/2.png">
+			<h3>header header</h3>
+		</section>
+
+		<section class="sentence" id="answer3">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/3.png">
+			<h3>header header</h3>
+		</section>
+
+		<section class="sentence" id="answer4">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/4.png">
+			<h3>header header</h3>
+		</section>
+
+		<section class="sentence" id="answer5">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/5.png">
+			<h3>header header</h3>
+		</section>
+
+		<section class="sentence" id="greenery">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/6.png">
+			<h3>I wanted sprawling woods, green </h3>
+		</section>
+
+		<section class="sentence" id="voicemail">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/7.png">
+			<h3>It was so sunny out, a perfect day to go outside</h3>
+		</section>
+
+		<section class="sentence" id="answer8">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/8.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="memory">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/9.png">
+			<h3>Stuffed animals, </h3>
+		</section>
+
+		<section class="sentence" id="answer10">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/10.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer11">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/11.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer12">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/12.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer13">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/13.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer14">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/14.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer15">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/15.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer16">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/16.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer17">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/17.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer18">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/18.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer19">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/19.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer20">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/20.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer21">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/21.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer22">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/22.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer23">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/23.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer24">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/24.png">
+			<h3></h3>
+		</section>
+
+		<section class="sentence" id="answer25">
+			<img src="https://raw.githubusercontent.com/liuleslie/alainifnchm/main/images/gan/25.png">
+			<h3></h3>
+		</section>
+
+
+
+		<section id="colophon-close">
+			<p>by [<a id="leslie" target="_blank" href="https://liuleslie.github.io">Leslie</a>], with a soundtrack by [<a id="marc" target="_blank" href="https://twofourone.net">Marc</a>]</p>
+		</section>
+
+
+
+	</body>
+</html>
+
+
+
+
